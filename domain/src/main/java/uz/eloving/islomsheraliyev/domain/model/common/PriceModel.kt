@@ -1,5 +1,5 @@
 package uz.eloving.islomsheraliyev.domain.model.common
 
 data class PriceModel(
-    val price: Long,
+    val value: Long,
 )

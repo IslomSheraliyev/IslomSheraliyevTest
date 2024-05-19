@@ -7,5 +7,10 @@
         <item name="android:navigationBarColor">@color/black</item>
     </style>
 
+    <style name="DialogFragmentAnimationScale">
+        <item name="android:windowEnterAnimation">@anim/scale_up</item>
+        <item name="android:windowExitAnimation">@anim/scale_down</item>
+    </style>
+
     <style name="Theme.IslomSheraliyevTest" parent="Base.Theme.IslomSheraliyevTest" />
 </resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.tickets.TicketsFragment">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="28dp" />
+
+    <TextView
+        style="@style/title_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_cheap_tickets"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="36dp" />
+
+    <include
+        android:id="@+id/search_card"
+        layout="@layout/component_search_card" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="36dp" />
+
+    <TextView
+        style="@style/title_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="@string/fly_musically"
+        android:textColor="@color/white" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_offers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:itemCount="1"
+        tools:listitem="@layout/item_offers" />
+
+</LinearLayout>

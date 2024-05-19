@@ -15,7 +15,7 @@ object CommonMapper {
 
     val priceMapper: Mapper<PriceRemoteModel?, PriceModel> = { remote ->
         PriceModel(
-            price = remote?.price.or0()
+            value = remote?.value.or0()
         )
     }
 

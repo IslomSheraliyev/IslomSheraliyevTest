@@ -23,7 +23,7 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object ApiModule {
     private const val TIME_OUT = 20L
-    private const val BASE_URL = "https://cyber.1it-games.uz/api/v1/frontend/"
+    private const val BASE_URL = "https://run.mocky.io/v3/"
 
     @Qualifier
     annotation class DevApiApiRetrofit

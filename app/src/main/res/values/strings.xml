@@ -8,5 +8,21 @@
     <string name="nav_item_subscriptions">Подписки</string>
     <string name="nav_item_profile">Профиль</string>
 
+    <string name="price">от %1$s ₽</string>
+
+    <!-- HardCoded Strings -->
+    <string name="search_cheap_tickets">Поиск дешевых\nавиабилетов</string>
+    <string name="from">Откуда - %s</string>
+    <string name="to">Куда - %s</string>
+    <string name="fly_musically">Музыкально отлететь</string>
+
+    <string name="complex_route">Сложный\nмаршрут</string>
+    <string name="to_anywhere">Куда\nугодно</string>
+    <string name="weekends">Выходные</string>
+    <string name="hot_tickets">Горячие\nбилеты</string>
+    <string name="istanbul">Стамбул</string>
+    <string name="sochi">Сочи</string>
+    <string name="pxuket">Пхукет</string>
+    <string name="popular_place">Популярное направление</string>
 
 </resources>

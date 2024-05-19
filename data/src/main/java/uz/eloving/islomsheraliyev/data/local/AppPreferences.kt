@@ -14,4 +14,9 @@ object AppPreferences {
     }
 
 
+    var from: String
+        get() = preferences.getString(::from.name, "?") ?: "?"
+        set(value) {
+            preferences.edit().putString(::from.name, value).apply()
+        }
 }
