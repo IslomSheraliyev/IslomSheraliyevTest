@@ -1,15 +1,12 @@
 package uz.eloving.islomsheraliyevtest.ui.activity
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import uz.eloving.islomsheraliyevtest.R
+import uz.eloving.islomsheraliyevtest.core.BaseActivity
+import uz.eloving.islomsheraliyevtest.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-
+        setContentView(binding.root)
     }
 }
