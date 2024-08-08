@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tariff">Tarif</string>
+    <string name="orders">Buyurtmalar</string>
+    <string name="bordur">Bordur</string>
+    <string name="busy">Band</string>
+    <string name="active">Faol</string>
+</resources>
